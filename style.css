@@ -6,12 +6,14 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive
 }
 
 :root {
-    --bg-color: #0f1e20;
-    --second-bg-color: #15221c;
+    --bg-color: linear-gradient(to left bottom,
+    #256D85, #533483, #6DA9E4, #F6BA6F);
+    --second-bg-color: linear-gradient(to right top,
+    #256D85, #533483, #6DA9E4, #F6BA6F);
     --text-color: #fff;
     --main-color:#4af09d;
 }
@@ -42,7 +44,7 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #1b3331;
+    background-color: #277BC0;
 }
 
 .header.sticky {
@@ -56,7 +58,7 @@ section {
     cursor: default;
 }
 .logo:hover{
-    color: #55ca07;
+    color: #1c330b;
     box-shadow: 0 0 1rem #a307ca;
     border-radius: 50%;
 }
@@ -243,7 +245,8 @@ span {
 }
 
 .portfolio {
-    background-color: #1b3331;
+    background: linear-gradient(to left bottom,
+    #256D85, #533483, #6DA9E4, #F6BA6F);;
 }
 
 .portfolio h2 {
