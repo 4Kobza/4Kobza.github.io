@@ -11,11 +11,11 @@
 
 :root {
     --bg-color: linear-gradient(to left bottom,
-    #265073, #2D9596, #1640D6);
+    #365486, #1D2B53, #0F1035);
     --second-bg-color: linear-gradient(to right top,
-    #265073, #2D9596, #1640D6);
+    #365486, #1D2B53, #0F1035);
     --text-color: #fff;
-    --main-color:#67729D;
+    --main-color:#0F1035;
 }
 
 html{
